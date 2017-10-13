@@ -3,17 +3,20 @@
 <head>
     <title>My first frontend</title>
      <link rel="stylesheet" href="main.css">
+</head>
     <body>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" id="dropdownClick">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#News">News</a></li>
                 <li><a href="#Contacts">Contacts</a></li>
                 <li><a href="#About">About</a></li>
                 <li class="topnav-right"><a href="#Sign up">Sign up</a></li>
                 <li class="topnav-right"><a href="#Sign in">Sign in </a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
             </ul>
         </nav>
+        <script type="text/javascript" src="main.js"></script>
+
     </body>
-</head>
 </html>
